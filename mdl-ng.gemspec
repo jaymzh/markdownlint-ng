@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'mdl/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "mdl"
+  spec.name          = "mdl-ng"
   spec.version       = MarkdownLint::VERSION
-  spec.authors       = ["Mark Harrison"]
-  spec.email         = ["mark@mivok.net"]
+  spec.authors       = ["Phil Dibowitz"]
+  spec.email         = ["phil@ipom.com"]
   spec.summary       = %q{Markdown lint tool}
   spec.description   = %q{Style checker/lint tool for markdown files}
-  spec.homepage      = "http://github.com/markdownlint/markdownlint"
+  spec.homepage      = "http://github.com/markdownlint-ng/markdownlint-ng"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")

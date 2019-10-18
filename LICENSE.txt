@@ -1,4 +1,6 @@
 Copyright (c) 2014 Mark Harrison
+Copyright (c) 2017 psyomn
+Copyright (c) 2019 Phil Dibowitz
 
 MIT License
 

@@ -1,6 +1,5 @@
-[![Issues on deck](https://badge.waffle.io/mivok/markdownlint.png?label=on%20deck&title=On%20Deck)](https://waffle.io/mivok/markdownlint)
-[![Travis build status](http://api.travis-ci.org/markdownlint/markdownlint.svg)](https://travis-ci.org/markdownlint/markdownlint)
-[![Gem Version](https://badge.fury.io/rb/mdl.svg)](http://badge.fury.io/rb/mdl)
+[![Travis build status](http://api.travis-ci.com/markdownlint-ng/markdownlint-ng.svg)](https://travis-ci.com/markdownlint-ng/markdownlint-ng)
+[![Gem Version](https://badge.fury.io/rb/mdl.svg)](http://badge.fury.io/rb/mdl-ng)
 
 # Markdown lint tool
 
@@ -8,20 +7,22 @@ A tool to check markdown files and flag style issues.
 
 ## Installation
 
-Markdownlint is written in ruby and is distributed as a rubygem. As long as
+**NOTE**: Gems have not been created since the fork from `markdownlint` to
+`markdownlint-ng` - they will come soon.
+
+Markdownlint-ng is written in ruby and is distributed as a rubygem. As long as
 you have a relatively up to date ruby on your system, markdownlint will be
 simple to install and use. You have 2 options to install it:
 
 To install from rubygems, run:
 
-    gem install mdl
+    gem install mdl-ng
 
 To install the latest development version from github:
 
-    git clone https://github.com/markdownlint/markdownlint
-    cd markdownlint
+    git clone https://github.com/markdownlint-ng/markdownlint-ng
+    cd markdownlint-ng
     rake install
-
 
 Note that you will need [rake](https://github.com/ruby/rake)
 (`gem install rake`) and [bundler](https://github.com/bundler/bundler)
@@ -83,9 +84,17 @@ For more information on creating style files, see the
   [markdownlint-cli](https://github.com/igorshubovych/markdownlint-cli) for
   Node.js
 
+## History
+
+The original Markdownlint was created by [Mark
+Harrison](https://github.com/mivok) in 2014. It was forked by
+[psyomn](https://github.com/psyomn) in 2017 who maintained it until early 2019.
+This fork was created on October 17, 2019 after several attempts to contact the
+previous owner. See MAINTAINERS.md for details.
+
 ## Contributing
 
-1. Fork it ( <http://github.com/markdownlint/markdownlint/fork> )
+1. Fork it ( <http://github.com/markdownlint-ng/markdownlint-ng/fork> )
 1. Create your feature branch (`git checkout -b my-new-feature`)
 1. Commit your changes (`git commit -am 'Add some feature'`)
 1. Push to the branch (`git push origin my-new-feature`)
