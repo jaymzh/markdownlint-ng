@@ -1,5 +1,5 @@
 [![Travis build status](http://api.travis-ci.com/markdownlint-ng/markdownlint-ng.svg)](https://travis-ci.com/markdownlint-ng/markdownlint-ng)
-[![Gem Version](https://badge.fury.io/rb/mdl.svg)](http://badge.fury.io/rb/mdl-ng)
+[![Gem Version](https://badge.fury.io/rb/mdl-ng.svg)](http://badge.fury.io/rb/mdl-ng)
 
 # Markdown lint tool
 
